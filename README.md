@@ -1,4 +1,4 @@
-# Header Check
+# Header Check in Reading View
 
 Add clickable checkboxes next to Markdown headings in Obsidian.  
 Perfect for exam questions, reading lists, or any document where you want to mark headings as “done” without changing the note content.
