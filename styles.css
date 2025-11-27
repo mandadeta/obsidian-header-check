@@ -1,0 +1,73 @@
+.markdown-preview-view h1 .tag[href="#done"],
+.markdown-preview-view h2 .tag[href="#done"],
+.markdown-preview-view h3 .tag[href="#done"],
+.markdown-preview-view h4 .tag[href="#done"],
+.markdown-preview-view h5 .tag[href="#done"],
+.markdown-preview-view h6 .tag[href="#done"],
+.markdown-reading-view h1 .tag[href="#done"],
+.markdown-reading-view h2 .tag[href="#done"],
+.markdown-reading-view h3 .tag[href="#done"],
+.markdown-reading-view h4 .tag[href="#done"],
+.markdown-reading-view h5 .tag[href="#done"],
+.markdown-reading-view h6 .tag[href="#done"] {
+  display: none;
+}
+
+.header-has-checkbox .header-done-arrow-proxy {
+  display: inline-block;
+}
+
+.markdown-preview-view h1.header-has-checkbox,
+.markdown-preview-view h2.header-has-checkbox,
+.markdown-preview-view h3.header-has-checkbox,
+.markdown-preview-view h4.header-has-checkbox,
+.markdown-preview-view h5.header-has-checkbox,
+.markdown-preview-view h6.header-has-checkbox,
+.markdown-reading-view h1.header-has-checkbox,
+.markdown-reading-view h2.header-has-checkbox,
+.markdown-reading-view h3.header-has-checkbox,
+.markdown-reading-view h4.header-has-checkbox,
+.markdown-reading-view h5.header-has-checkbox,
+.markdown-reading-view h6.header-has-checkbox {
+  margin-left: -1.2em;
+}
+
+.header-has-checkbox .header-done-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.22em;
+  height: 1.22em;
+  margin-left: -1em;
+  margin-right: 0.6em;
+  border-radius: 0.25em;
+  border: 1px solid var(--text-muted);
+  background-color: var(--background-primary);
+  color: var(--text-muted);
+  font-size: 0.7em;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: middle;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.12s ease-out;
+}
+
+.header-has-checkbox:hover .header-done-checkbox {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.header-has-checkbox .header-done-checkbox.is-checked {
+  opacity: 1;
+  pointer-events: auto;
+  background-color: var(--interactive-success, #22c55e);
+  border-color: var(--interactive-success, #22c55e);
+  color: var(--background-primary);
+}
+
+.header-has-checkbox .header-done-checkbox:hover {
+  filter: brightness(1.05);
+}

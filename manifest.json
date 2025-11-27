@@ -1,0 +1,10 @@
+{
+  "id": "header-check",
+  "name": "Header Check",
+  "version": "1.3.0",
+  "minAppVersion": "1.5.0",
+  "description": "Add clickable checkboxes next to headings so you can mark sections as done without changing note content.",
+  "author": "mandadeta",
+  "authorUrl": "https://github.com/mandadeta/",
+  "isDesktopOnly": false
+}
